@@ -546,6 +546,9 @@ formulario.addEventListener("submit", (e) => {
         let name = (document.getElementById("nombre").value = "");
         let password = (document.getElementById("password").value = "");
         let email = (document.getElementById("email").value = "");
+        let telefono = (document.getElementById("telefono").value = "");
+        let apellidos = (document.getElementById("apellidos-usuario").value = "");
+        let password2 = (document.getElementById("password2").value = "");
       } else {
         let email = (document.getElementById("email").value = "");
         Toast.fire({
